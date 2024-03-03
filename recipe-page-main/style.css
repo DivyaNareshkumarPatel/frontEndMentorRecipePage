@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+    font-size: 15px;
+    overflow-wrap: break-word;
+    color: hsl(30, 10%, 34%);
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 700px;
+    min-width: 375px;
+    margin: 100px;
+    border-radius: 20px;
+}
+.image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    margin-top: 27px;
+}
+.content{
+    overflow-wrap: break-word;
+    padding-left: 30px;
+    padding-right:30px;
+}
+img{
+    max-width: 655px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+h1, h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+.heading h1{
+    color: hsl(24, 5%, 18%);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+.first{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inner{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: hsl(330, 100%, 98%);
+}
+.inner ul{
+    margin: 20px;
+    margin-bottom: 5px;
+}
+.inner ul li{
+    padding: 5px;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+}
+.second h2{
+    margin-bottom: 20px;
+}
+.second ul{
+    margin: 20px;
+    padding-bottom: 3px;
+}
+.second ul li{
+    margin: 10px;
+}
+li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+hr{
+    border: 1px solid hsl(30, 18%, 87%);
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.third h2{
+    margin-bottom: 20px;
+}
+.third ol{
+    margin: 20px
+}
+.third li{
+    padding: 7px;
+}
+.forth h2{
+    margin-bottom: 15px;
+}
+.forth p{
+    margin-bottom: 25px;
+}
+table{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+table .color{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+tr td{
+    height: 40px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-collapse: collapse;
+}
+@media screen and (max-width:430px){
+    .body{
+        overflow-wrap: break-word;
+    }
+    .container{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .image{
+        margin: 0;
+    }
+    img{
+        border-radius: 0;
+    }
+    .content{
+        overflow-wrap: break-word;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
